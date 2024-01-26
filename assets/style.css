@@ -171,15 +171,16 @@ section{
 #profile{
     display: flex;
     justify-self: center;
-    gap: 5rem;
+    gap: 10rem;
     height: 80vh;
 }
 
 .section_pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin: auto 0;
+    margin-right: 50px;
 }
 
 .section_text{
@@ -212,6 +213,10 @@ section{
     gap: 1rem;
 }
 
+.intro, .details-container{
+    margin-left: 50px;
+}
+
 /*icon*/
 
 .icon{
@@ -222,6 +227,7 @@ section{
 
 #my-pic{
     border-radius: 10px;
+    margin-right: 50px;
 }
 
 
@@ -291,7 +297,7 @@ section{
 }
 
 .about-pic{
-    border-radius: 2rem;
+    border-radius: 5rem;
 }
 
 .arrow{
@@ -368,8 +374,8 @@ article .icon{
   
   .project-img {
     border-radius: 2rem;
-    width: 50%;
-    height: 50%;
+    max-width: 100%;
+    height: auto;
     position: relative;
   }
   
